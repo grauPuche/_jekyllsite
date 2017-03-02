@@ -1,4 +1,4 @@
-site 'http://supermarket.getchef.com/api/v1'
 site "http://community.opscode.com/api/v1"
 
 cookbook "nginx"
+cookbook "rbenv"

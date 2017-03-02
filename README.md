@@ -13,3 +13,8 @@ _As a Bonus there's the fact of getting used to **md** writing, which I have nev
 
 The first thing has to be getting used to new workflow and software, this is being done with **Code Visual Studio**. I'm using it due to its capavilities as a debugger and connection to gitHub.
 
+### set-up
+
+I need to understand mnost of Jekyll and how it works, so I need/want to set it in a VPS as it is part of my one of my classes.
+
+Said VPS is partialy already set up, it has configurations for a _ Basic Server_ using _node.js_
