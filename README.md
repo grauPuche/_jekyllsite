@@ -2,7 +2,7 @@
 
 ## goal
 
-__To learn to use jekyll at while getting used to github.__
+__To learn to use jekyll while getting used to github.__
 
 To be more specific, I'm trying to redo my website with jekyll. The issue here is that I have to create my own template, due to me being a graphic design grad that does not want to change the look of his website. the reason of using jekyll is that I need a better way of updating the content in my porfolio and a quick way to do my blogpost while I'm a graduate student at ITP.
 
@@ -15,6 +15,7 @@ The first thing has to be getting used to new workflow and software, this is bei
 
 ### set-up
 
-I need to understand mnost of Jekyll and how it works, so I need/want to set it in a VPS as it is part of my one of my classes.
+I need to understand Jekyll and how it works, I also need/want to set it in a VPS as it is part of my one of my classes.
 
-Said VPS is partialy already set up, it has configurations for a _ Basic Server_ using _node.js_
+Said VPS is partialy already set up, it has configurations for a _Basic Server_ using _node.js_ and a _Express Server_. to set up the server using _Jekyll_ I'm using the guide done by [Tristan Dunn](https://github.com/tristandunn/jekyll-vps-server/tree/master), I do highly recommend it to anyone in the same situation as me, but beware that it is set up for someone that has a fair amount of experience in this kind of enviorment, as it implies a lot of different things. If you have my current knowledge in thi matter you might have to research a bit and ask around while following this guide. I still recomend it, as it forces you to learn by various means.
+
