@@ -1,2 +1,0 @@
-name    "ruby"
-depends "rbenv"
