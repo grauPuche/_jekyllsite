@@ -1,5 +1,7 @@
 # _jekyllsite
 
+# DO NOT PAY ATTENTION TO THIS (WIP)
+
 ## goal
 
 __To learn to use jekyll while getting used to github.__
