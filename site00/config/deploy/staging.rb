@@ -59,3 +59,20 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+
+set :stage, :staging
+role :app, %w{localhost}
+role :web, %w{localhost}
+role :db,  %w{localhost}
+
+set :application, 'depot'
+set :repo_url, 'ssh://deploy@localhost:2222/~/git/depot.git'
+set :branch, 'master'
+set :deploy_to, '/var/www/stapi/staging'
+
+set :ssh_options, {
+  forward_agent: false,
+  user: 'root',
+  port: 2222
+}
