@@ -59,27 +59,3 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-
-
-#set :stage, :staging
-#role :app, %w{localhost}
-#role :web, %w{localhost}
-#role :db,  %w{localhost}
-
-#set :application, 'GrauDeNom'
-#set :repo_url, 'git@github.com:grauPuche/_jekyllsite.git'
-#set :branch, 'www'
-
-#set :deploy_to, '/var/www/stapi/staging'
-#set :ssh_options, {
-
-#  user: 'root',
-#  port: 2222
-
-set :ssh_options, { 
-  forward_agent: true, 
-  paranoid: true, 
-  keys: "/Users/g_/.ssh/id_rsa" 
-}
-
-}

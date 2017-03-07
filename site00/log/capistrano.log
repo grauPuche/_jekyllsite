@@ -1,0 +1,843 @@
+# Logfile created on 2017-03-06 12:48:37 -0500 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 12:48:37 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [09fea76a] Running [ -d ~/.rvm ] as root@http
+ DEBUG [09fea76a] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 12:57:03 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [23342f59] Running [ -d ~/.rvm ] as root@http
+ DEBUG [23342f59] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 12:57:38 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [81a3671b] Running [ -d ~/.rvm ] as root@http
+ DEBUG [81a3671b] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 12:58:34 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0e3e5580] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [0e3e5580] Command: [ -d ~/.rvm ]
+ DEBUG [0e3e5580] Finished in 0.255 seconds with exit status 1 (failed).
+ DEBUG [7320a85e] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [7320a85e] Command: [ -d /usr/local/rvm ]
+ DEBUG [7320a85e] Finished in 0.243 seconds with exit status 0 (successful).
+ DEBUG [ceb4ad59] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [ceb4ad59] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ceb4ad59] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [ceb4ad59] Finished in 0.437 seconds with exit status 0 (successful).
+ DEBUG [9ab5dc52] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [9ab5dc52] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [9ab5dc52] 	ruby-2.4.0
+ DEBUG [9ab5dc52] Finished in 0.413 seconds with exit status 0 (successful).
+ DEBUG [16661e98] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [16661e98] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [16661e98] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [16661e98] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [da3173c5] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [da3173c5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [da3173c5] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-raw.sh 100.0%
+  INFO [6b880117] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-raw.sh as root@138.197.79.25
+ DEBUG [6b880117] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-raw.sh
+  INFO [6b880117] Finished in 1.056 seconds with exit status 0 (successful).
+  INFO [a89aeb88] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as root@138.197.79.25
+ DEBUG [a89aeb88] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-raw.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+ DEBUG [a89aeb88] 	ssh: connect to host example.com port 22: Network is unreachable
+ DEBUG [a89aeb88] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:01:44 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [414db9c5] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [414db9c5] Command: [ -d ~/.rvm ]
+ DEBUG [414db9c5] Finished in 0.245 seconds with exit status 1 (failed).
+ DEBUG [ec44e739] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [ec44e739] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:02:23 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f0907b78] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [f0907b78] Command: [ -d ~/.rvm ]
+ DEBUG [f0907b78] Finished in 0.376 seconds with exit status 1 (failed).
+ DEBUG [60ee34a2] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [60ee34a2] Command: [ -d /usr/local/rvm ]
+ DEBUG [60ee34a2] Finished in 0.273 seconds with exit status 0 (successful).
+ DEBUG [cc7830ba] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [cc7830ba] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [cc7830ba] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [cc7830ba] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [1e3b2565] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [1e3b2565] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [1e3b2565] 	ruby-2.4.0
+ DEBUG [1e3b2565] Finished in 0.438 seconds with exit status 0 (successful).
+ DEBUG [acc87699] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [acc87699] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [acc87699] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [acc87699] Finished in 0.326 seconds with exit status 0 (successful).
+  INFO [ce9c97f9] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [ce9c97f9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ce9c97f9] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-raw.sh 100.0%
+  INFO [24d17dab] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-raw.sh as root@138.197.79.25
+ DEBUG [24d17dab] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-raw.sh
+  INFO [24d17dab] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [1e368781] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as root@138.197.79.25
+ DEBUG [1e368781] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-raw.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+ DEBUG [1e368781] 	ssh: connect to host example.com port 22: Network is unreachable
+ DEBUG [1e368781] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:08:35 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [dda9923c] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [dda9923c] Command: [ -d ~/.rvm ]
+ DEBUG [dda9923c] Finished in 0.249 seconds with exit status 1 (failed).
+ DEBUG [e69af8a2] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [e69af8a2] Command: [ -d /usr/local/rvm ]
+ DEBUG [e69af8a2] Finished in 0.238 seconds with exit status 0 (successful).
+ DEBUG [db64d6d6] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [db64d6d6] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [db64d6d6] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [db64d6d6] Finished in 0.432 seconds with exit status 0 (successful).
+ DEBUG [470c9ccb] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [470c9ccb] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [470c9ccb] 	ruby-2.4.0
+ DEBUG [470c9ccb] Finished in 0.426 seconds with exit status 0 (successful).
+ DEBUG [6160648c] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [6160648c] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [6160648c] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [6160648c] Finished in 0.369 seconds with exit status 0 (successful).
+  INFO [575fac17] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [575fac17] Command: /usr/bin/env mkdir -p /tmp
+  INFO [575fac17] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeBlog-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeBlog-production-raw.sh 100.0%
+  INFO [0b994e44] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeBlog-production-raw.sh as root@138.197.79.25
+ DEBUG [0b994e44] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeBlog-production-raw.sh
+  INFO [0b994e44] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [9b194461] Running /usr/bin/env git ls-remote graupuche@github.com:graupuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [9b194461] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeBlog-production-raw.sh" ; /usr/bin/env git ls-remote graupuche@github.com:graupuche/_jekyllsite.git HEAD )
+ DEBUG [9b194461] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [9b194461] 	Permission denied (publickey).
+ DEBUG [9b194461] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:10:21 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [46a59fa1] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [46a59fa1] Command: [ -d ~/.rvm ]
+ DEBUG [46a59fa1] Finished in 0.280 seconds with exit status 1 (failed).
+ DEBUG [9c22592a] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [9c22592a] Command: [ -d /usr/local/rvm ]
+ DEBUG [9c22592a] Finished in 0.292 seconds with exit status 0 (successful).
+ DEBUG [1a1738a1] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [1a1738a1] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [1a1738a1] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [1a1738a1] Finished in 0.505 seconds with exit status 0 (successful).
+ DEBUG [ec89f101] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [ec89f101] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [ec89f101] 	ruby-2.4.0
+ DEBUG [ec89f101] Finished in 0.437 seconds with exit status 0 (successful).
+ DEBUG [dee32abd] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [dee32abd] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [dee32abd] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [dee32abd] Finished in 0.341 seconds with exit status 0 (successful).
+  INFO [0d1ad94b] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [0d1ad94b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0d1ad94b] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeBlog-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeBlog-production-raw.sh 100.0%
+  INFO [073754ee] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeBlog-production-raw.sh as root@138.197.79.25
+ DEBUG [073754ee] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeBlog-production-raw.sh
+  INFO [073754ee] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [57ecd8c6] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [57ecd8c6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeBlog-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [57ecd8c6] 	Permission denied (publickey).
+ DEBUG [57ecd8c6] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:17:30 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ec95dbc3] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [ec95dbc3] Command: [ -d ~/.rvm ]
+ DEBUG [ec95dbc3] Finished in 0.255 seconds with exit status 1 (failed).
+ DEBUG [13689160] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [13689160] Command: [ -d /usr/local/rvm ]
+ DEBUG [13689160] Finished in 0.249 seconds with exit status 0 (successful).
+ DEBUG [3a011e07] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [3a011e07] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [3a011e07] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [3a011e07] Finished in 0.412 seconds with exit status 0 (successful).
+ DEBUG [55887ede] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [55887ede] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [55887ede] 	ruby-2.4.0
+ DEBUG [55887ede] Finished in 0.420 seconds with exit status 0 (successful).
+ DEBUG [6598fa22] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [6598fa22] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [6598fa22] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [6598fa22] Finished in 0.333 seconds with exit status 0 (successful).
+  INFO [a75b064d] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [a75b064d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a75b064d] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [a317e40f] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [a317e40f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [a317e40f] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [bf0f1863] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [bf0f1863] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [bf0f1863] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [bf0f1863] 	Permission denied (publickey).
+ DEBUG [bf0f1863] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:29:56 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [995f18ed] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [995f18ed] Command: [ -d ~/.rvm ]
+ DEBUG [995f18ed] Finished in 0.263 seconds with exit status 1 (failed).
+ DEBUG [cca77ddf] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [cca77ddf] Command: [ -d /usr/local/rvm ]
+ DEBUG [cca77ddf] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG [16ea9c42] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [16ea9c42] Command: /usr/local/rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:46:04 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e80e971f] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [e80e971f] Command: [ -d ~/.rvm ]
+ DEBUG [e80e971f] Finished in 0.262 seconds with exit status 1 (failed).
+ DEBUG [ac60ff36] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [ac60ff36] Command: [ -d /usr/local/rvm ]
+ DEBUG [ac60ff36] Finished in 0.272 seconds with exit status 0 (successful).
+ DEBUG [ccd03136] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [ccd03136] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ccd03136] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [ccd03136] Finished in 0.457 seconds with exit status 0 (successful).
+ DEBUG [5b2b132e] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [5b2b132e] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5b2b132e] 	ruby-2.4.0
+ DEBUG [5b2b132e] Finished in 0.426 seconds with exit status 0 (successful).
+ DEBUG [5ee36314] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [5ee36314] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [5ee36314] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [5ee36314] Finished in 0.374 seconds with exit status 0 (successful).
+  INFO [48aa608f] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [48aa608f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [48aa608f] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [6e351516] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [6e351516] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [6e351516] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [d3581411] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [d3581411] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [d3581411] 	Permission denied (publickey).
+ DEBUG [d3581411] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:51:06 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [80dabe02] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [80dabe02] Command: [ -d ~/.rvm ]
+ DEBUG [80dabe02] Finished in 0.262 seconds with exit status 1 (failed).
+ DEBUG [3fa63c9b] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [3fa63c9b] Command: [ -d /usr/local/rvm ]
+ DEBUG [3fa63c9b] Finished in 0.226 seconds with exit status 0 (successful).
+ DEBUG [f27c301f] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [f27c301f] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [f27c301f] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [f27c301f] Finished in 0.467 seconds with exit status 0 (successful).
+ DEBUG [84ce5517] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [84ce5517] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [84ce5517] 	ruby-2.4.0
+ DEBUG [84ce5517] Finished in 0.423 seconds with exit status 0 (successful).
+ DEBUG [10ca0c85] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [10ca0c85] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [10ca0c85] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [10ca0c85] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [db183756] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [db183756] Command: /usr/bin/env mkdir -p /tmp
+  INFO [db183756] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [00c60281] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [00c60281] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [00c60281] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [085963b4] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [085963b4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [085963b4] 	Permission denied (publickey).
+ DEBUG [085963b4] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:56:41 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [03caf72c] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [03caf72c] Command: [ -d ~/.rvm ]
+ DEBUG [03caf72c] Finished in 0.262 seconds with exit status 1 (failed).
+ DEBUG [f2925de8] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [f2925de8] Command: [ -d /usr/local/rvm ]
+ DEBUG [f2925de8] Finished in 0.275 seconds with exit status 0 (successful).
+ DEBUG [72b380f0] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [72b380f0] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [72b380f0] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [72b380f0] Finished in 0.424 seconds with exit status 0 (successful).
+ DEBUG [15fa8057] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [15fa8057] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [15fa8057] 	ruby-2.4.0
+ DEBUG [15fa8057] Finished in 0.440 seconds with exit status 0 (successful).
+ DEBUG [a3f99ab4] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [a3f99ab4] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [a3f99ab4] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [a3f99ab4] Finished in 0.328 seconds with exit status 0 (successful).
+  INFO [a70b62df] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [a70b62df] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a70b62df] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [5cfca3ff] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [5cfca3ff] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [5cfca3ff] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [10774e3c] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [10774e3c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [10774e3c] 	Permission denied (publickey).
+ DEBUG [10774e3c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 13:58:30 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [be321fe9] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [be321fe9] Command: [ -d ~/.rvm ]
+ DEBUG [be321fe9] Finished in 0.241 seconds with exit status 1 (failed).
+ DEBUG [abaa85f9] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [abaa85f9] Command: [ -d /usr/local/rvm ]
+ DEBUG [abaa85f9] Finished in 0.228 seconds with exit status 0 (successful).
+ DEBUG [43623c47] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [43623c47] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [43623c47] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [43623c47] Finished in 0.407 seconds with exit status 0 (successful).
+ DEBUG [222f6dfd] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [222f6dfd] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [222f6dfd] 	ruby-2.4.0
+ DEBUG [222f6dfd] Finished in 0.407 seconds with exit status 0 (successful).
+ DEBUG [a02d00ad] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [a02d00ad] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [a02d00ad] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [a02d00ad] Finished in 0.419 seconds with exit status 0 (successful).
+  INFO [7206ac78] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [7206ac78] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7206ac78] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [be6efe90] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [be6efe90] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [be6efe90] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [9718c659] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [9718c659] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [9718c659] 	Permission denied (publickey).
+ DEBUG [9718c659] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:00:40 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8c89a90d] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [8c89a90d] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:02:03 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [761b7252] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [761b7252] Command: [ -d ~/.rvm ]
+ DEBUG [761b7252] Finished in 0.235 seconds with exit status 1 (failed).
+ DEBUG [6b22cde2] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [6b22cde2] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:02:44 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e6d32429] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [e6d32429] Command: [ -d ~/.rvm ]
+ DEBUG [e6d32429] Finished in 0.235 seconds with exit status 1 (failed).
+ DEBUG [e3e560a5] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [e3e560a5] Command: [ -d /usr/local/rvm ]
+ DEBUG [e3e560a5] Finished in 0.230 seconds with exit status 0 (successful).
+ DEBUG [82a608ca] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [82a608ca] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [82a608ca] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [82a608ca] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [78c0befa] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [78c0befa] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [78c0befa] 	ruby-2.4.0
+ DEBUG [78c0befa] Finished in 0.408 seconds with exit status 0 (successful).
+ DEBUG [a4c03384] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [a4c03384] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [a4c03384] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [a4c03384] Finished in 0.360 seconds with exit status 0 (successful).
+  INFO [2499f698] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [2499f698] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2499f698] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [f0e93e11] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [f0e93e11] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [f0e93e11] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [1beae2c6] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [1beae2c6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [1beae2c6] 	Permission denied (publickey).
+ DEBUG [1beae2c6] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:03:11 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [02cfb660] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [02cfb660] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:03:34 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [38660db1] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [38660db1] Command: [ -d ~/.rvm ]
+ DEBUG [38660db1] Finished in 0.269 seconds with exit status 1 (failed).
+ DEBUG [35e3c426] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [35e3c426] Command: [ -d /usr/local/rvm ]
+ DEBUG [35e3c426] Finished in 0.226 seconds with exit status 0 (successful).
+ DEBUG [7f19313f] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [7f19313f] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [7f19313f] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [7f19313f] Finished in 0.406 seconds with exit status 0 (successful).
+ DEBUG [62532f08] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [62532f08] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [62532f08] 	ruby-2.4.0
+ DEBUG [62532f08] Finished in 0.432 seconds with exit status 0 (successful).
+ DEBUG [1fb9e0e0] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [1fb9e0e0] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [1fb9e0e0] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [1fb9e0e0] Finished in 0.343 seconds with exit status 0 (successful).
+  INFO [2ffff5c6] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [2ffff5c6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2ffff5c6] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [1fcb1e80] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [1fcb1e80] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [1fcb1e80] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [082b9388] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [082b9388] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [082b9388] 	Permission denied (publickey).
+ DEBUG [082b9388] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:05:42 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9556b076] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [9556b076] Command: [ -d ~/.rvm ]
+ DEBUG [9556b076] Finished in 0.345 seconds with exit status 1 (failed).
+ DEBUG [bf3cd39b] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [bf3cd39b] Command: [ -d /usr/local/rvm ]
+ DEBUG [bf3cd39b] Finished in 0.340 seconds with exit status 0 (successful).
+ DEBUG [b7513e28] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [b7513e28] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [b7513e28] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [b7513e28] Finished in 0.688 seconds with exit status 0 (successful).
+ DEBUG [8b6d4fa5] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [8b6d4fa5] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [8b6d4fa5] 	ruby-2.4.0
+ DEBUG [8b6d4fa5] Finished in 0.625 seconds with exit status 0 (successful).
+ DEBUG [81836945] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [81836945] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [81836945] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [81836945] Finished in 0.516 seconds with exit status 0 (successful).
+  INFO [f25eb88f] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [f25eb88f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f25eb88f] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [8b867db7] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [8b867db7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [8b867db7] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [6ca4ef2d] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [6ca4ef2d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [6ca4ef2d] 	Permission denied (publickey).
+ DEBUG [6ca4ef2d] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:12:35 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6351a5fb] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [6351a5fb] Command: [ -d ~/.rvm ]
+ DEBUG [6351a5fb] Finished in 0.264 seconds with exit status 1 (failed).
+ DEBUG [01bd4e6a] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [01bd4e6a] Command: [ -d /usr/local/rvm ]
+ DEBUG [01bd4e6a] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG [3596e273] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [3596e273] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [3596e273] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [3596e273] Finished in 0.434 seconds with exit status 0 (successful).
+ DEBUG [5dc24933] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [5dc24933] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5dc24933] 	ruby-2.4.0
+ DEBUG [5dc24933] Finished in 0.549 seconds with exit status 0 (successful).
+ DEBUG [2ca4f02c] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [2ca4f02c] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [2ca4f02c] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [2ca4f02c] Finished in 0.407 seconds with exit status 0 (successful).
+  INFO [070a9c07] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [070a9c07] Command: /usr/bin/env mkdir -p /tmp
+  INFO [070a9c07] Finished in 0.016 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [8f4889d1] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [8f4889d1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [8f4889d1] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [7ee31e34] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [7ee31e34] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [7ee31e34] 	Permission denied (publickey).
+ DEBUG [7ee31e34] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:22:30 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2a61d23b] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [2a61d23b] Command: [ -d ~/.rvm ]
+ DEBUG [2a61d23b] Finished in 0.243 seconds with exit status 1 (failed).
+ DEBUG [d833d164] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [d833d164] Command: [ -d /usr/local/rvm ]
+ DEBUG [d833d164] Finished in 0.228 seconds with exit status 0 (successful).
+ DEBUG [4e6a1355] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [4e6a1355] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4e6a1355] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [4e6a1355] Finished in 0.439 seconds with exit status 0 (successful).
+ DEBUG [7812b816] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [7812b816] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [7812b816] 	ruby-2.4.0
+ DEBUG [7812b816] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [46bb09b4] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [46bb09b4] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [46bb09b4] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [46bb09b4] Finished in 0.339 seconds with exit status 0 (successful).
+  INFO [e5b5579b] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [e5b5579b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e5b5579b] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [5cfe745d] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [5cfe745d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [5cfe745d] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [422406f9] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [422406f9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [422406f9] 	Permission denied (publickey).
+ DEBUG [422406f9] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:24:25 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [439d8b72] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [439d8b72] Command: [ -d ~/.rvm ]
+ DEBUG [439d8b72] Finished in 0.236 seconds with exit status 1 (failed).
+ DEBUG [49d09d86] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [49d09d86] Command: [ -d /usr/local/rvm ]
+ DEBUG [49d09d86] Finished in 0.243 seconds with exit status 0 (successful).
+ DEBUG [b06d9d34] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [b06d9d34] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [b06d9d34] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [b06d9d34] Finished in 0.474 seconds with exit status 0 (successful).
+ DEBUG [b3c46965] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [b3c46965] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [b3c46965] 	ruby-2.4.0
+ DEBUG [b3c46965] Finished in 0.410 seconds with exit status 0 (successful).
+ DEBUG [44b072d1] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [44b072d1] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [44b072d1] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [44b072d1] Finished in 0.317 seconds with exit status 0 (successful).
+  INFO [5a2421d7] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [5a2421d7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5a2421d7] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [4e2dd5e8] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [4e2dd5e8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [4e2dd5e8] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [4011217d] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [4011217d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [4011217d] 	Permission denied (publickey).
+ DEBUG [4011217d] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:35:23 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2a0b2cc9] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [2a0b2cc9] Command: [ -d ~/.rvm ]
+ DEBUG [2a0b2cc9] Finished in 0.252 seconds with exit status 1 (failed).
+ DEBUG [734356f2] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [734356f2] Command: [ -d /usr/local/rvm ]
+ DEBUG [734356f2] Finished in 0.257 seconds with exit status 0 (successful).
+ DEBUG [168d181d] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [168d181d] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [168d181d] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [168d181d] Finished in 0.443 seconds with exit status 0 (successful).
+ DEBUG [6e612164] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [6e612164] Command: /usr/local/rvm/bin/rvm current
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:35:45 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c5fb717d] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [c5fb717d] Command: [ -d ~/.rvm ]
+ DEBUG [c5fb717d] Finished in 0.442 seconds with exit status 1 (failed).
+ DEBUG [98014c0e] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [98014c0e] Command: [ -d /usr/local/rvm ]
+ DEBUG [98014c0e] Finished in 0.515 seconds with exit status 0 (successful).
+ DEBUG [23e45227] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [23e45227] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [23e45227] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [23e45227] Finished in 0.766 seconds with exit status 0 (successful).
+ DEBUG [980a08d5] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [980a08d5] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [980a08d5] 	ruby-2.4.0
+ DEBUG [980a08d5] Finished in 0.521 seconds with exit status 0 (successful).
+ DEBUG [b66646c0] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [b66646c0] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [b66646c0] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [b66646c0] Finished in 0.416 seconds with exit status 0 (successful).
+  INFO [fbc4862d] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [fbc4862d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fbc4862d] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [3f847012] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [3f847012] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [3f847012] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [50f8b381] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [50f8b381] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [50f8b381] 	Permission denied (publickey).
+ DEBUG [50f8b381] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:50:18 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [87d0a6b1] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [87d0a6b1] Command: [ -d ~/.rvm ]
+ DEBUG [87d0a6b1] Finished in 0.363 seconds with exit status 1 (failed).
+ DEBUG [d8ad0e0e] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [d8ad0e0e] Command: [ -d /usr/local/rvm ]
+ DEBUG [d8ad0e0e] Finished in 0.275 seconds with exit status 0 (successful).
+ DEBUG [92827556] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [92827556] Command: /usr/local/rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:50:27 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [eae5e09a] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [eae5e09a] Command: [ -d ~/.rvm ]
+ DEBUG [eae5e09a] Finished in 0.252 seconds with exit status 1 (failed).
+ DEBUG [b432a00e] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [b432a00e] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 14:50:54 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [47deb476] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [47deb476] Command: [ -d ~/.rvm ]
+ DEBUG [47deb476] Finished in 0.240 seconds with exit status 1 (failed).
+ DEBUG [9ef17675] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [9ef17675] Command: [ -d /usr/local/rvm ]
+ DEBUG [9ef17675] Finished in 0.242 seconds with exit status 0 (successful).
+ DEBUG [4c4e62ef] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [4c4e62ef] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4c4e62ef] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [4c4e62ef] Finished in 0.423 seconds with exit status 0 (successful).
+ DEBUG [599ba8f0] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [599ba8f0] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [599ba8f0] 	ruby-2.4.0
+ DEBUG [599ba8f0] Finished in 0.425 seconds with exit status 0 (successful).
+ DEBUG [9ad314f0] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [9ad314f0] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [9ad314f0] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [9ad314f0] Finished in 0.352 seconds with exit status 0 (successful).
+  INFO [c381b310] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [c381b310] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c381b310] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-_jekyllsite-production-raw.sh 100.0%
+  INFO [cb885ba2] Running /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh as root@138.197.79.25
+ DEBUG [cb885ba2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-_jekyllsite-production-raw.sh
+  INFO [cb885ba2] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [a1c19627] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [a1c19627] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-_jekyllsite-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [a1c19627] 	Permission denied (publickey).
+ DEBUG [a1c19627] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:22:05 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0387aa40] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [0387aa40] Command: [ -d ~/.rvm ]
+ DEBUG [0387aa40] Finished in 0.376 seconds with exit status 1 (failed).
+ DEBUG [b359ea31] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [b359ea31] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:22:19 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8d8abee8] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [8d8abee8] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:23:05 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [be940296] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [be940296] Command: [ -d ~/.rvm ]
+ DEBUG [be940296] Finished in 0.231 seconds with exit status 1 (failed).
+ DEBUG [143607aa] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [143607aa] Command: [ -d /usr/local/rvm ]
+ DEBUG [143607aa] Finished in 0.235 seconds with exit status 0 (successful).
+ DEBUG [810547c8] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [810547c8] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [810547c8] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [810547c8] Finished in 0.416 seconds with exit status 0 (successful).
+ DEBUG [46eaf381] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [46eaf381] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [46eaf381] 	ruby-2.4.0
+ DEBUG [46eaf381] Finished in 0.469 seconds with exit status 0 (successful).
+ DEBUG [cbf70ecc] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [cbf70ecc] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [cbf70ecc] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [cbf70ecc] Finished in 0.346 seconds with exit status 0 (successful).
+  INFO [0426050e] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [0426050e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0426050e] Finished in 0.016 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh--production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh--production-raw.sh 100.0%
+  INFO [b021bedc] Running /usr/bin/env chmod 700 /tmp/git-ssh--production-raw.sh as root@138.197.79.25
+ DEBUG [b021bedc] Command: /usr/bin/env chmod 700 /tmp/git-ssh--production-raw.sh
+  INFO [b021bedc] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [496ae206] Running /usr/bin/env git ls-remote  HEAD as root@138.197.79.25
+ DEBUG [496ae206] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh--production-raw.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [496ae206] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [496ae206] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:24:17 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [918b87cf] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [918b87cf] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:24:40 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2ce0dfa2] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [2ce0dfa2] Command: [ -d ~/.rvm ]
+ DEBUG [2ce0dfa2] Finished in 0.299 seconds with exit status 1 (failed).
+ DEBUG [adc3d443] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [adc3d443] Command: [ -d /usr/local/rvm ]
+ DEBUG [adc3d443] Finished in 0.269 seconds with exit status 0 (successful).
+ DEBUG [c5613d6e] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [c5613d6e] Command: /usr/local/rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-06 16:24:55 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4d91f3e7] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [4d91f3e7] Command: [ -d ~/.rvm ]
+ DEBUG [4d91f3e7] Finished in 0.281 seconds with exit status 1 (failed).
+ DEBUG [7f31a03a] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [7f31a03a] Command: [ -d /usr/local/rvm ]
+ DEBUG [7f31a03a] Finished in 0.252 seconds with exit status 0 (successful).
+ DEBUG [d09421f5] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [d09421f5] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [d09421f5] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [d09421f5] Finished in 0.524 seconds with exit status 0 (successful).
+ DEBUG [d577d581] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [d577d581] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [d577d581] 	ruby-2.4.0
+ DEBUG [d577d581] Finished in 0.531 seconds with exit status 0 (successful).
+ DEBUG [076ce75d] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [076ce75d] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [076ce75d] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [076ce75d] Finished in 0.408 seconds with exit status 0 (successful).
+  INFO [16a6c540] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [16a6c540] Command: /usr/bin/env mkdir -p /tmp
+  INFO [16a6c540] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [d4ead7de] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [d4ead7de] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [d4ead7de] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [fa1db809] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [fa1db809] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [fa1db809] 	Permission denied (publickey).
+ DEBUG [fa1db809] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 11:05:05 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f4d117e2] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [f4d117e2] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 11:05:43 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [75b7f0de] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [75b7f0de] Command: [ -d ~/.rvm ]
+ DEBUG [75b7f0de] Finished in 0.244 seconds with exit status 1 (failed).
+ DEBUG [13e95f2f] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [13e95f2f] Command: [ -d /usr/local/rvm ]
+ DEBUG [13e95f2f] Finished in 0.258 seconds with exit status 0 (successful).
+ DEBUG [9c050b10] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [9c050b10] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [9c050b10] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [9c050b10] Finished in 1.058 seconds with exit status 0 (successful).
+ DEBUG [773bf94a] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [773bf94a] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [773bf94a] 	ruby-2.4.0
+ DEBUG [773bf94a] Finished in 6.506 seconds with exit status 0 (successful).
+ DEBUG [dfe1a4ab] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [dfe1a4ab] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [dfe1a4ab] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [dfe1a4ab] Finished in 0.361 seconds with exit status 0 (successful).
+  INFO [3b132f24] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [3b132f24] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3b132f24] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [f038b00d] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [f038b00d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [f038b00d] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [0e5d8cac] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [0e5d8cac] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [0e5d8cac] 	Permission denied (publickey).
+ DEBUG [0e5d8cac] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
