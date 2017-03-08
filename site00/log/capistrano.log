@@ -841,3 +841,1252 @@ and the repository exists.
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 11:45:18 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [06ee1d7e] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [06ee1d7e] Command: [ -d ~/.rvm ]
+ DEBUG [06ee1d7e] Finished in 0.371 seconds with exit status 1 (failed).
+ DEBUG [51c4ed62] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [51c4ed62] Command: [ -d /usr/local/rvm ]
+ DEBUG [51c4ed62] Finished in 0.343 seconds with exit status 0 (successful).
+ DEBUG [a152959b] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [a152959b] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [a152959b] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [a152959b] Finished in 0.481 seconds with exit status 0 (successful).
+ DEBUG [2fe925fc] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [2fe925fc] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [2fe925fc] 	ruby-2.4.0
+ DEBUG [2fe925fc] Finished in 0.539 seconds with exit status 0 (successful).
+ DEBUG [9d718ae3] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [9d718ae3] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [9d718ae3] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [9d718ae3] Finished in 0.515 seconds with exit status 0 (successful).
+  INFO [30e6e5bf] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [30e6e5bf] Command: /usr/bin/env mkdir -p /tmp
+  INFO [30e6e5bf] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [e997be7f] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [e997be7f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [e997be7f] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [97baabf1] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [97baabf1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [97baabf1] 	Permission denied (publickey).
+ DEBUG [97baabf1] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 11:51:27 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b329913b] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [b329913b] Command: [ -d ~/.rvm ]
+ DEBUG [b329913b] Finished in 0.223 seconds with exit status 1 (failed).
+ DEBUG [e68b1a8b] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [e68b1a8b] Command: [ -d /usr/local/rvm ]
+ DEBUG [e68b1a8b] Finished in 0.221 seconds with exit status 0 (successful).
+ DEBUG [4fdef02d] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [4fdef02d] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4fdef02d] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [4fdef02d] Finished in 0.596 seconds with exit status 0 (successful).
+ DEBUG [22cd8c18] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [22cd8c18] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [22cd8c18] 	ruby-2.4.0
+ DEBUG [22cd8c18] Finished in 0.439 seconds with exit status 0 (successful).
+ DEBUG [fd965048] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [fd965048] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [fd965048] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [fd965048] Finished in 0.433 seconds with exit status 0 (successful).
+  INFO [20cba0a4] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [20cba0a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [20cba0a4] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [e3e842c1] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [e3e842c1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [e3e842c1] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [80fee377] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [80fee377] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [80fee377] 	Permission denied (publickey).
+ DEBUG [80fee377] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 12:17:16 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f77076d8] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [f77076d8] Command: [ -d ~/.rvm ]
+ DEBUG [f77076d8] Finished in 0.293 seconds with exit status 1 (failed).
+ DEBUG [d872a910] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [d872a910] Command: [ -d /usr/local/rvm ]
+ DEBUG [d872a910] Finished in 0.278 seconds with exit status 0 (successful).
+ DEBUG [ddf1ae3a] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [ddf1ae3a] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ddf1ae3a] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [ddf1ae3a] Finished in 0.846 seconds with exit status 0 (successful).
+ DEBUG [d5aca344] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [d5aca344] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [d5aca344] 	ruby-2.4.0
+ DEBUG [d5aca344] Finished in 0.450 seconds with exit status 0 (successful).
+ DEBUG [979b2c5d] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [979b2c5d] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [979b2c5d] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [979b2c5d] Finished in 0.345 seconds with exit status 0 (successful).
+  INFO [45bea22b] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [45bea22b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [45bea22b] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [d6c1a057] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [d6c1a057] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [d6c1a057] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [a7e78a3d] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [a7e78a3d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [a7e78a3d] 	Permission denied (publickey).
+ DEBUG [a7e78a3d] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 12:19:22 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a7481c99] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [a7481c99] Command: [ -d ~/.rvm ]
+ DEBUG [a7481c99] Finished in 0.243 seconds with exit status 1 (failed).
+ DEBUG [3f1bab2c] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [3f1bab2c] Command: [ -d /usr/local/rvm ]
+ DEBUG [3f1bab2c] Finished in 0.237 seconds with exit status 0 (successful).
+ DEBUG [0433cda4] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [0433cda4] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [0433cda4] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [0433cda4] Finished in 0.421 seconds with exit status 0 (successful).
+ DEBUG [5299e726] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [5299e726] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [5299e726] 	ruby-2.4.0
+ DEBUG [5299e726] Finished in 0.766 seconds with exit status 0 (successful).
+ DEBUG [0f6569b4] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [0f6569b4] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [0f6569b4] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [0f6569b4] Finished in 0.420 seconds with exit status 0 (successful).
+  INFO [355bd506] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [355bd506] Command: /usr/bin/env mkdir -p /tmp
+  INFO [355bd506] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [c42fa499] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [c42fa499] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [c42fa499] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [71fa5d0a] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [71fa5d0a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [71fa5d0a] 	Permission denied (publickey).
+ DEBUG [71fa5d0a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 12:27:29 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3a91dab8] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [3a91dab8] Command: [ -d ~/.rvm ]
+ DEBUG [3a91dab8] Finished in 0.234 seconds with exit status 1 (failed).
+ DEBUG [3e3f6058] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [3e3f6058] Command: [ -d /usr/local/rvm ]
+ DEBUG [3e3f6058] Finished in 0.231 seconds with exit status 0 (successful).
+ DEBUG [ea10fd64] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [ea10fd64] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ea10fd64] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [ea10fd64] Finished in 0.432 seconds with exit status 0 (successful).
+ DEBUG [0fda478f] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [0fda478f] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [0fda478f] 	ruby-2.4.0
+ DEBUG [0fda478f] Finished in 0.411 seconds with exit status 0 (successful).
+ DEBUG [6e3c3625] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [6e3c3625] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [6e3c3625] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [6e3c3625] Finished in 0.404 seconds with exit status 0 (successful).
+  INFO [41ef1a6f] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [41ef1a6f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [41ef1a6f] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GrauDeNom-production-raw.sh 100.0%
+  INFO [9bcd2492] Running /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [9bcd2492] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GrauDeNom-production-raw.sh
+  INFO [9bcd2492] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [c43da580] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD as root@138.197.79.25
+ DEBUG [c43da580] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_jekyllsite.git HEAD )
+ DEBUG [c43da580] 	d333412bdc2a98e55027bb7cbef01b12f6371877	HEAD
+  INFO [c43da580] Finished in 0.264 seconds with exit status 0 (successful).
+  INFO [30ee1530] Running /usr/bin/env mkdir -p /var/www/GrauDeNom/shared /var/www/GrauDeNom/releases as root@138.197.79.25
+ DEBUG [30ee1530] Command: /usr/bin/env mkdir -p /var/www/GrauDeNom/shared /var/www/GrauDeNom/releases
+  INFO [30ee1530] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [2a17791c] Running /usr/bin/env mkdir -p /var/www/GrauDeNom/shared/public/assets as root@138.197.79.25
+ DEBUG [2a17791c] Command: /usr/bin/env mkdir -p /var/www/GrauDeNom/shared/public/assets
+  INFO [2a17791c] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [aef482ac] Running [ -f /var/www/GrauDeNom/current/REVISION ] as root@138.197.79.25
+ DEBUG [aef482ac] Command: [ -f /var/www/GrauDeNom/current/REVISION ]
+ DEBUG [aef482ac] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [e49fa853] Running [ -f /var/www/GrauDeNom/repo/HEAD ] as root@138.197.79.25
+ DEBUG [e49fa853] Command: [ -f /var/www/GrauDeNom/repo/HEAD ]
+ DEBUG [e49fa853] Finished in 0.012 seconds with exit status 1 (failed).
+ DEBUG [26db2952] Running if test ! -d /var/www/GrauDeNom; then echo "Directory does not exist '/var/www/GrauDeNom'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [26db2952] Command: if test ! -d /var/www/GrauDeNom; then echo "Directory does not exist '/var/www/GrauDeNom'" 1>&2; false; fi
+ DEBUG [26db2952] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [811e734c] Running /usr/bin/env git clone --mirror git@github.com:grauPuche/_jekyllsite.git /var/www/GrauDeNom/repo as root@138.197.79.25
+ DEBUG [811e734c] Command: cd /var/www/GrauDeNom && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git clone --mirror git@github.com:grauPuche/_jekyllsite.git /var/www/GrauDeNom/repo )
+ DEBUG [811e734c] 	Cloning into bare repository '/var/www/GrauDeNom/repo'...
+  INFO [811e734c] Finished in 0.369 seconds with exit status 0 (successful).
+ DEBUG [21363a8d] Running if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [21363a8d] Command: if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi
+ DEBUG [21363a8d] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [b51a4ee9] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_jekyllsite.git as root@138.197.79.25
+ DEBUG [b51a4ee9] Command: cd /var/www/GrauDeNom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_jekyllsite.git )
+  INFO [b51a4ee9] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [0762e51b] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [0762e51b] Command: cd /var/www/GrauDeNom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [0762e51b] 	Fetching origin
+  INFO [0762e51b] Finished in 0.278 seconds with exit status 0 (successful).
+ DEBUG [02fea17a] Running if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [02fea17a] Command: if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi
+ DEBUG [02fea17a] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [245580d0] Running /usr/bin/env mkdir -p /var/www/GrauDeNom/releases/20170307172731 as root@138.197.79.25
+ DEBUG [245580d0] Command: cd /var/www/GrauDeNom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/www/GrauDeNom/releases/20170307172731 )
+  INFO [245580d0] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [d998110c] Running /usr/bin/env git archive www | /usr/bin/env tar -x -f - -C /var/www/GrauDeNom/releases/20170307172731 as root@138.197.79.25
+ DEBUG [d998110c] Command: cd /var/www/GrauDeNom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git archive www | /usr/bin/env tar -x -f - -C /var/www/GrauDeNom/releases/20170307172731 )
+  INFO [d998110c] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [b727b3b4] Running if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [b727b3b4] Command: if test ! -d /var/www/GrauDeNom/repo; then echo "Directory does not exist '/var/www/GrauDeNom/repo'" 1>&2; false; fi
+ DEBUG [b727b3b4] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [779a17b4] Running /usr/bin/env git rev-list --max-count=1 www as root@138.197.79.25
+ DEBUG [779a17b4] Command: cd /var/www/GrauDeNom/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GrauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 www )
+ DEBUG [779a17b4] 	87399f015cd66765f4224b2af5e943cf063e2de6
+ DEBUG [779a17b4] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [ec9a4f1f] Running if test ! -d /var/www/GrauDeNom/releases/20170307172731; then echo "Directory does not exist '/var/www/GrauDeNom/releases/20170307172731'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [ec9a4f1f] Command: if test ! -d /var/www/GrauDeNom/releases/20170307172731; then echo "Directory does not exist '/var/www/GrauDeNom/releases/20170307172731'" 1>&2; false; fi
+ DEBUG [ec9a4f1f] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [1700f2e7] Running /usr/bin/env echo "87399f015cd66765f4224b2af5e943cf063e2de6" >> REVISION as root@138.197.79.25
+ DEBUG [1700f2e7] Command: cd /var/www/GrauDeNom/releases/20170307172731 && /usr/bin/env echo "87399f015cd66765f4224b2af5e943cf063e2de6" >> REVISION
+  INFO [1700f2e7] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [94f73a55] Running /usr/bin/env mkdir -p /var/www/GrauDeNom/releases/20170307172731/public as root@138.197.79.25
+ DEBUG [94f73a55] Command: /usr/bin/env mkdir -p /var/www/GrauDeNom/releases/20170307172731/public
+  INFO [94f73a55] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [4b1973ab] Running [ -L /var/www/GrauDeNom/releases/20170307172731/public/assets ] as root@138.197.79.25
+ DEBUG [4b1973ab] Command: [ -L /var/www/GrauDeNom/releases/20170307172731/public/assets ]
+ DEBUG [4b1973ab] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [330cd6c6] Running [ -d /var/www/GrauDeNom/releases/20170307172731/public/assets ] as root@138.197.79.25
+ DEBUG [330cd6c6] Command: [ -d /var/www/GrauDeNom/releases/20170307172731/public/assets ]
+ DEBUG [330cd6c6] Finished in 0.011 seconds with exit status 1 (failed).
+  INFO [da301a9f] Running /usr/bin/env ln -s /var/www/GrauDeNom/shared/public/assets /var/www/GrauDeNom/releases/20170307172731/public/assets as root@138.197.79.25
+ DEBUG [da301a9f] Command: /usr/bin/env ln -s /var/www/GrauDeNom/shared/public/assets /var/www/GrauDeNom/releases/20170307172731/public/assets
+  INFO [da301a9f] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [9efd5707] Running if test ! -d /var/www/GrauDeNom/releases/20170307172731; then echo "Directory does not exist '/var/www/GrauDeNom/releases/20170307172731'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [9efd5707] Command: if test ! -d /var/www/GrauDeNom/releases/20170307172731; then echo "Directory does not exist '/var/www/GrauDeNom/releases/20170307172731'" 1>&2; false; fi
+ DEBUG [9efd5707] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [738eccb9] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/www/GrauDeNom/shared/bundle as root@138.197.79.25
+ DEBUG [738eccb9] Command: cd /var/www/GrauDeNom/releases/20170307172731 && /usr/local/rvm/bin/rvm default do bundle check --path /var/www/GrauDeNom/shared/bundle
+ DEBUG [738eccb9] 	Could not locate Gemfile
+ DEBUG [738eccb9] Finished in 0.797 seconds with exit status 10 (failed).
+  INFO [2a95f975] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/www/GrauDeNom/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [2a95f975] Command: cd /var/www/GrauDeNom/releases/20170307172731 && /usr/local/rvm/bin/rvm default do bundle install --path /var/www/GrauDeNom/shared/bundle --without development test --deployment --quiet
+ DEBUG [2a95f975] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 12:55:51 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f4ce49b0] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [f4ce49b0] Command: [ -d ~/.rvm ]
+ DEBUG [f4ce49b0] Finished in 0.219 seconds with exit status 1 (failed).
+ DEBUG [ea18d6c4] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [ea18d6c4] Command: [ -d /usr/local/rvm ]
+ DEBUG [ea18d6c4] Finished in 0.246 seconds with exit status 0 (successful).
+ DEBUG [ffae7c2e] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [ffae7c2e] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [ffae7c2e] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [ffae7c2e] Finished in 0.522 seconds with exit status 0 (successful).
+ DEBUG [812c5e09] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [812c5e09] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [812c5e09] 	ruby-2.4.0
+ DEBUG [812c5e09] Finished in 0.403 seconds with exit status 0 (successful).
+ DEBUG [024e0a9c] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [024e0a9c] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [024e0a9c] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [024e0a9c] Finished in 0.528 seconds with exit status 0 (successful).
+  INFO [2cc13c65] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [2cc13c65] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2cc13c65] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [10174090] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [10174090] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [10174090] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [e3828ca5] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [e3828ca5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [e3828ca5] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [e3828ca5] Finished in 0.271 seconds with exit status 0 (successful).
+  INFO [d94f10a1] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [d94f10a1] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [d94f10a1] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [60fb50d3] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [60fb50d3] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [60fb50d3] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [051ecd42] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [051ecd42] Command: [ -f /var/current/REVISION ]
+ DEBUG [051ecd42] Finished in 0.015 seconds with exit status 1 (failed).
+ DEBUG [0c204fe4] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [0c204fe4] Command: [ -f /var/repo/HEAD ]
+ DEBUG [0c204fe4] Finished in 0.013 seconds with exit status 1 (failed).
+ DEBUG [8215d307] Running if test ! -d /var; then echo "Directory does not exist '/var'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [8215d307] Command: if test ! -d /var; then echo "Directory does not exist '/var'" 1>&2; false; fi
+ DEBUG [8215d307] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [77397d2c] Running /usr/bin/env git clone --mirror git@github.com:grauPuche/_grauDeNom.git /var/repo as root@138.197.79.25
+ DEBUG [77397d2c] Command: cd /var && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git clone --mirror git@github.com:grauPuche/_grauDeNom.git /var/repo )
+ DEBUG [77397d2c] 	Cloning into bare repository '/var/repo'...
+  INFO [77397d2c] Finished in 4.362 seconds with exit status 0 (successful).
+ DEBUG [393f7e97] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [393f7e97] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [393f7e97] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [bed52ee1] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [bed52ee1] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [bed52ee1] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [a5aebb98] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [a5aebb98] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a5aebb98] 	Fetching origin
+  INFO [a5aebb98] Finished in 0.280 seconds with exit status 0 (successful).
+ DEBUG [00363cff] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [00363cff] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [00363cff] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [fb6d1a1d] Running /usr/bin/env mkdir -p /var/releases/20170307175553 as root@138.197.79.25
+ DEBUG [fb6d1a1d] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307175553 )
+  INFO [fb6d1a1d] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [dfbf10ae] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307175553 as root@138.197.79.25
+ DEBUG [dfbf10ae] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307175553 )
+  INFO [dfbf10ae] Finished in 1.338 seconds with exit status 0 (successful).
+ DEBUG [743f2552] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [743f2552] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [743f2552] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [7de37815] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [7de37815] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7de37815] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [7de37815] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [44ca9535] Running if test ! -d /var/releases/20170307175553; then echo "Directory does not exist '/var/releases/20170307175553'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [44ca9535] Command: if test ! -d /var/releases/20170307175553; then echo "Directory does not exist '/var/releases/20170307175553'" 1>&2; false; fi
+ DEBUG [44ca9535] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [efa29501] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [efa29501] Command: cd /var/releases/20170307175553 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [efa29501] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [ee032417] Running /usr/bin/env mkdir -p /var/releases/20170307175553/public as root@138.197.79.25
+ DEBUG [ee032417] Command: /usr/bin/env mkdir -p /var/releases/20170307175553/public
+  INFO [ee032417] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [d93fac02] Running [ -L /var/releases/20170307175553/public/assets ] as root@138.197.79.25
+ DEBUG [d93fac02] Command: [ -L /var/releases/20170307175553/public/assets ]
+ DEBUG [d93fac02] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [8e577530] Running [ -d /var/releases/20170307175553/public/assets ] as root@138.197.79.25
+ DEBUG [8e577530] Command: [ -d /var/releases/20170307175553/public/assets ]
+ DEBUG [8e577530] Finished in 0.015 seconds with exit status 1 (failed).
+  INFO [d92e2bde] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307175553/public/assets as root@138.197.79.25
+ DEBUG [d92e2bde] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307175553/public/assets
+  INFO [d92e2bde] Finished in 0.010 seconds with exit status 0 (successful).
+ DEBUG [829bc1f2] Running if test ! -d /var/releases/20170307175553; then echo "Directory does not exist '/var/releases/20170307175553'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [829bc1f2] Command: if test ! -d /var/releases/20170307175553; then echo "Directory does not exist '/var/releases/20170307175553'" 1>&2; false; fi
+ DEBUG [829bc1f2] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [4e9e1d9b] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [4e9e1d9b] Command: cd /var/releases/20170307175553 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [4e9e1d9b] 	Could not locate Gemfile
+ DEBUG [4e9e1d9b] Finished in 0.801 seconds with exit status 10 (failed).
+  INFO [cc882f7d] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [cc882f7d] Command: cd /var/releases/20170307175553 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [cc882f7d] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 13:00:39 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9c376b43] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [9c376b43] Command: [ -d ~/.rvm ]
+ DEBUG [9c376b43] Finished in 0.355 seconds with exit status 1 (failed).
+ DEBUG [6ffd6616] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [6ffd6616] Command: [ -d /usr/local/rvm ]
+ DEBUG [6ffd6616] Finished in 0.209 seconds with exit status 0 (successful).
+ DEBUG [80e0c8cf] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [80e0c8cf] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [80e0c8cf] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [80e0c8cf] Finished in 1.024 seconds with exit status 0 (successful).
+ DEBUG [bf839c99] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [bf839c99] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [bf839c99] 	ruby-2.4.0
+ DEBUG [bf839c99] Finished in 1.373 seconds with exit status 0 (successful).
+ DEBUG [4c782192] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [4c782192] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [4c782192] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [4c782192] Finished in 0.524 seconds with exit status 0 (successful).
+  INFO [4e424b40] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [4e424b40] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4e424b40] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [b98c25db] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [b98c25db] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [b98c25db] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [a8604738] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [a8604738] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [a8604738] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [a8604738] Finished in 0.978 seconds with exit status 0 (successful).
+  INFO [e4f10857] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [e4f10857] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [e4f10857] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [f39b4051] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [f39b4051] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [f39b4051] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [2543cd5c] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [2543cd5c] Command: [ -f /var/current/REVISION ]
+ DEBUG [2543cd5c] Finished in 0.046 seconds with exit status 1 (failed).
+ DEBUG [e35d4610] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [e35d4610] Command: [ -f /var/repo/HEAD ]
+ DEBUG [e35d4610] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [a11744e2] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [a11744e2] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [a11744e2] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [7e0ec954] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [7e0ec954] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [7e0ec954] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [32eca424] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [32eca424] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [32eca424] 	Fetching origin
+  INFO [32eca424] Finished in 0.468 seconds with exit status 0 (successful).
+ DEBUG [7a20792b] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [7a20792b] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [7a20792b] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [68256e31] Running /usr/bin/env mkdir -p /var/releases/20170307180044 as root@138.197.79.25
+ DEBUG [68256e31] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307180044 )
+  INFO [68256e31] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [137e72a0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307180044 as root@138.197.79.25
+ DEBUG [137e72a0] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307180044 )
+  INFO [137e72a0] Finished in 1.380 seconds with exit status 0 (successful).
+ DEBUG [49e9b397] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [49e9b397] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [49e9b397] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [5e6eecd8] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [5e6eecd8] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [5e6eecd8] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [5e6eecd8] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [5ca51ebb] Running if test ! -d /var/releases/20170307180044; then echo "Directory does not exist '/var/releases/20170307180044'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [5ca51ebb] Command: if test ! -d /var/releases/20170307180044; then echo "Directory does not exist '/var/releases/20170307180044'" 1>&2; false; fi
+ DEBUG [5ca51ebb] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [5545bbb8] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [5545bbb8] Command: cd /var/releases/20170307180044 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [5545bbb8] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [9eb56d7f] Running /usr/bin/env mkdir -p /var/releases/20170307180044/public as root@138.197.79.25
+ DEBUG [9eb56d7f] Command: /usr/bin/env mkdir -p /var/releases/20170307180044/public
+  INFO [9eb56d7f] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [4d7dbeb9] Running [ -L /var/releases/20170307180044/public/assets ] as root@138.197.79.25
+ DEBUG [4d7dbeb9] Command: [ -L /var/releases/20170307180044/public/assets ]
+ DEBUG [4d7dbeb9] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [1f0b9536] Running [ -d /var/releases/20170307180044/public/assets ] as root@138.197.79.25
+ DEBUG [1f0b9536] Command: [ -d /var/releases/20170307180044/public/assets ]
+ DEBUG [1f0b9536] Finished in 0.011 seconds with exit status 1 (failed).
+  INFO [c07e0a16] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307180044/public/assets as root@138.197.79.25
+ DEBUG [c07e0a16] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307180044/public/assets
+  INFO [c07e0a16] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [80966769] Running if test ! -d /var/releases/20170307180044; then echo "Directory does not exist '/var/releases/20170307180044'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [80966769] Command: if test ! -d /var/releases/20170307180044; then echo "Directory does not exist '/var/releases/20170307180044'" 1>&2; false; fi
+ DEBUG [80966769] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [432cb0a1] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [432cb0a1] Command: cd /var/releases/20170307180044 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [432cb0a1] 	Could not locate Gemfile
+ DEBUG [432cb0a1] Finished in 0.614 seconds with exit status 10 (failed).
+  INFO [ef424505] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [ef424505] Command: cd /var/releases/20170307180044 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [ef424505] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 13:08:05 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fd7c88a1] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [fd7c88a1] Command: [ -d ~/.rvm ]
+ DEBUG [fd7c88a1] Finished in 0.277 seconds with exit status 1 (failed).
+ DEBUG [59f2dee6] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [59f2dee6] Command: [ -d /usr/local/rvm ]
+ DEBUG [59f2dee6] Finished in 0.216 seconds with exit status 0 (successful).
+ DEBUG [e72b2edf] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [e72b2edf] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [e72b2edf] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [e72b2edf] Finished in 0.467 seconds with exit status 0 (successful).
+ DEBUG [abc36fe4] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [abc36fe4] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [abc36fe4] 	ruby-2.4.0
+ DEBUG [abc36fe4] Finished in 0.421 seconds with exit status 0 (successful).
+ DEBUG [59656a98] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [59656a98] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [59656a98] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [59656a98] Finished in 0.600 seconds with exit status 0 (successful).
+  INFO [a49d63b7] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [a49d63b7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a49d63b7] Finished in 0.018 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [5d431ea8] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [5d431ea8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [5d431ea8] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [7a124c5c] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [7a124c5c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [7a124c5c] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [7a124c5c] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [10bbdddb] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [10bbdddb] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [10bbdddb] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [7bd0201d] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [7bd0201d] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [7bd0201d] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [62800d71] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [62800d71] Command: [ -f /var/current/REVISION ]
+ DEBUG [62800d71] Finished in 0.013 seconds with exit status 1 (failed).
+ DEBUG [cfc47403] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [cfc47403] Command: [ -f /var/repo/HEAD ]
+ DEBUG [cfc47403] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [67c457c3] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [67c457c3] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [67c457c3] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [e923f4b7] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [e923f4b7] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [e923f4b7] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [271de7f4] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [271de7f4] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [271de7f4] 	Fetching origin
+  INFO [271de7f4] Finished in 0.286 seconds with exit status 0 (successful).
+ DEBUG [460350db] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [460350db] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [460350db] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [6326cc13] Running /usr/bin/env mkdir -p /var/releases/20170307180807 as root@138.197.79.25
+ DEBUG [6326cc13] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307180807 )
+  INFO [6326cc13] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [13458737] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307180807 as root@138.197.79.25
+ DEBUG [13458737] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307180807 )
+  INFO [13458737] Finished in 1.374 seconds with exit status 0 (successful).
+ DEBUG [a4b2f228] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [a4b2f228] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [a4b2f228] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [a832fec9] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [a832fec9] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a832fec9] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [a832fec9] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [3c530d02] Running if test ! -d /var/releases/20170307180807; then echo "Directory does not exist '/var/releases/20170307180807'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [3c530d02] Command: if test ! -d /var/releases/20170307180807; then echo "Directory does not exist '/var/releases/20170307180807'" 1>&2; false; fi
+ DEBUG [3c530d02] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [9e7f69af] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [9e7f69af] Command: cd /var/releases/20170307180807 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [9e7f69af] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [b8d35b5d] Running /usr/bin/env mkdir -p /var/releases/20170307180807/public as root@138.197.79.25
+ DEBUG [b8d35b5d] Command: /usr/bin/env mkdir -p /var/releases/20170307180807/public
+  INFO [b8d35b5d] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [915080d5] Running [ -L /var/releases/20170307180807/public/assets ] as root@138.197.79.25
+ DEBUG [915080d5] Command: [ -L /var/releases/20170307180807/public/assets ]
+ DEBUG [915080d5] Finished in 0.013 seconds with exit status 1 (failed).
+ DEBUG [f55623f4] Running [ -d /var/releases/20170307180807/public/assets ] as root@138.197.79.25
+ DEBUG [f55623f4] Command: [ -d /var/releases/20170307180807/public/assets ]
+ DEBUG [f55623f4] Finished in 0.012 seconds with exit status 1 (failed).
+  INFO [bdeb3468] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307180807/public/assets as root@138.197.79.25
+ DEBUG [bdeb3468] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307180807/public/assets
+  INFO [bdeb3468] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [34abc1d9] Running if test ! -d /var/releases/20170307180807; then echo "Directory does not exist '/var/releases/20170307180807'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [34abc1d9] Command: if test ! -d /var/releases/20170307180807; then echo "Directory does not exist '/var/releases/20170307180807'" 1>&2; false; fi
+ DEBUG [34abc1d9] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [25e1e63c] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [25e1e63c] Command: cd /var/releases/20170307180807 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [25e1e63c] 	Could not locate Gemfile
+ DEBUG [25e1e63c] Finished in 0.667 seconds with exit status 10 (failed).
+  INFO [78573188] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [78573188] Command: cd /var/releases/20170307180807 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [78573188] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:05:30 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4dcd77f0] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [4dcd77f0] Command: [ -d ~/.rvm ]
+ DEBUG [4dcd77f0] Finished in 0.520 seconds with exit status 1 (failed).
+ DEBUG [fcde5f1a] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [fcde5f1a] Command: [ -d /usr/local/rvm ]
+ DEBUG [fcde5f1a] Finished in 0.303 seconds with exit status 0 (successful).
+ DEBUG [70e48b0c] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [70e48b0c] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [70e48b0c] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [70e48b0c] Finished in 0.493 seconds with exit status 0 (successful).
+ DEBUG [bb3bc63e] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [bb3bc63e] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [bb3bc63e] 	ruby-2.4.0
+ DEBUG [bb3bc63e] Finished in 0.460 seconds with exit status 0 (successful).
+ DEBUG [653b53f9] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [653b53f9] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [653b53f9] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [653b53f9] Finished in 0.357 seconds with exit status 0 (successful).
+  INFO [a8c32aff] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [a8c32aff] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a8c32aff] Finished in 0.271 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [09d1ace8] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [09d1ace8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [09d1ace8] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [7c07d709] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [7c07d709] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [7c07d709] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [7c07d709] Finished in 0.268 seconds with exit status 0 (successful).
+  INFO [903a3b50] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [903a3b50] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [903a3b50] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [c5b25733] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [c5b25733] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [c5b25733] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [ff6783eb] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [ff6783eb] Command: [ -f /var/current/REVISION ]
+ DEBUG [ff6783eb] Finished in 0.012 seconds with exit status 1 (failed).
+ DEBUG [3b02e5d9] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [3b02e5d9] Command: [ -f /var/repo/HEAD ]
+ DEBUG [3b02e5d9] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [6992e162] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [6992e162] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [6992e162] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [165ba243] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [165ba243] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [165ba243] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [7ff0a8a9] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [7ff0a8a9] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7ff0a8a9] 	Fetching origin
+  INFO [7ff0a8a9] Finished in 0.302 seconds with exit status 0 (successful).
+ DEBUG [a40f05e8] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [a40f05e8] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [a40f05e8] Finished in 0.233 seconds with exit status 0 (successful).
+  INFO [72a67c3d] Running /usr/bin/env mkdir -p /var/releases/20170307190533 as root@138.197.79.25
+ DEBUG [72a67c3d] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307190533 )
+  INFO [72a67c3d] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [411e2383] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307190533 as root@138.197.79.25
+ DEBUG [411e2383] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307190533 )
+  INFO [411e2383] Finished in 1.477 seconds with exit status 0 (successful).
+ DEBUG [33fd5111] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [33fd5111] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [33fd5111] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [cd0bfbc7] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [cd0bfbc7] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cd0bfbc7] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [cd0bfbc7] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [604a16f9] Running if test ! -d /var/releases/20170307190533; then echo "Directory does not exist '/var/releases/20170307190533'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [604a16f9] Command: if test ! -d /var/releases/20170307190533; then echo "Directory does not exist '/var/releases/20170307190533'" 1>&2; false; fi
+ DEBUG [604a16f9] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [97e8bbaf] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [97e8bbaf] Command: cd /var/releases/20170307190533 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [97e8bbaf] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [b9e452e5] Running /usr/bin/env mkdir -p /var/releases/20170307190533/public as root@138.197.79.25
+ DEBUG [b9e452e5] Command: /usr/bin/env mkdir -p /var/releases/20170307190533/public
+  INFO [b9e452e5] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [e6d88e06] Running [ -L /var/releases/20170307190533/public/assets ] as root@138.197.79.25
+ DEBUG [e6d88e06] Command: [ -L /var/releases/20170307190533/public/assets ]
+ DEBUG [e6d88e06] Finished in 0.013 seconds with exit status 1 (failed).
+ DEBUG [64bdfa5d] Running [ -d /var/releases/20170307190533/public/assets ] as root@138.197.79.25
+ DEBUG [64bdfa5d] Command: [ -d /var/releases/20170307190533/public/assets ]
+ DEBUG [64bdfa5d] Finished in 0.015 seconds with exit status 1 (failed).
+  INFO [a6e65f34] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307190533/public/assets as root@138.197.79.25
+ DEBUG [a6e65f34] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307190533/public/assets
+  INFO [a6e65f34] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [f9845a1f] Running if test ! -d /var/releases/20170307190533; then echo "Directory does not exist '/var/releases/20170307190533'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [f9845a1f] Command: if test ! -d /var/releases/20170307190533; then echo "Directory does not exist '/var/releases/20170307190533'" 1>&2; false; fi
+ DEBUG [f9845a1f] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [9f146286] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [9f146286] Command: cd /var/releases/20170307190533 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [9f146286] 	Could not locate Gemfile
+ DEBUG [9f146286] Finished in 0.815 seconds with exit status 10 (failed).
+  INFO [04015d14] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [04015d14] Command: cd /var/releases/20170307190533 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [04015d14] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:18:22 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5859452c] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [5859452c] Command: [ -d ~/.rvm ]
+ DEBUG [5859452c] Finished in 0.226 seconds with exit status 1 (failed).
+ DEBUG [02140e6b] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [02140e6b] Command: [ -d /usr/local/rvm ]
+ DEBUG [02140e6b] Finished in 0.296 seconds with exit status 0 (successful).
+ DEBUG [a9906e24] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [a9906e24] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [a9906e24] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [a9906e24] Finished in 0.527 seconds with exit status 0 (successful).
+ DEBUG [4a108381] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [4a108381] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [4a108381] 	ruby-2.4.0
+ DEBUG [4a108381] Finished in 0.522 seconds with exit status 0 (successful).
+ DEBUG [66dbd41e] Running /usr/local/rvm/bin/rvm 1.29.1 do ruby --version as root@138.197.79.25
+ DEBUG [66dbd41e] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm 1.29.1 do ruby --version )
+ DEBUG [66dbd41e] 	Unknown ruby interpreter version (do not know how to handle): 1.29.1.
+Ruby 1.29.1 is not installed.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:19:49 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f2dad07c] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [f2dad07c] Command: [ -d ~/.rvm ]
+ DEBUG [f2dad07c] Finished in 0.269 seconds with exit status 1 (failed).
+ DEBUG [acda72b6] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [acda72b6] Command: [ -d /usr/local/rvm ]
+ DEBUG [acda72b6] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [70677c0e] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [70677c0e] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [70677c0e] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [70677c0e] Finished in 0.458 seconds with exit status 0 (successful).
+ DEBUG [753a3604] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [753a3604] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [753a3604] 	ruby-2.4.0
+ DEBUG [753a3604] Finished in 0.421 seconds with exit status 0 (successful).
+ DEBUG [f50d5369] Running /usr/local/rvm/bin/rvm 2.4.0p0 do ruby --version as root@138.197.79.25
+ DEBUG [f50d5369] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm 2.4.0p0 do ruby --version )
+ DEBUG [f50d5369] 	Ruby ruby-2.4.0p0 is not installed.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:20:10 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0c019ef9] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [0c019ef9] Command: [ -d ~/.rvm ]
+ DEBUG [0c019ef9] Finished in 0.238 seconds with exit status 1 (failed).
+ DEBUG [5020bc02] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [5020bc02] Command: [ -d /usr/local/rvm ]
+ DEBUG [5020bc02] Finished in 0.222 seconds with exit status 0 (successful).
+ DEBUG [741aadcd] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [741aadcd] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [741aadcd] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [741aadcd] Finished in 0.477 seconds with exit status 0 (successful).
+ DEBUG [f020dc9c] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [f020dc9c] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [f020dc9c] 	ruby-2.4.0
+ DEBUG [f020dc9c] Finished in 0.489 seconds with exit status 0 (successful).
+ DEBUG [24c4fede] Running /usr/local/rvm/bin/rvm 2.4.0p0 do ruby --version as root@138.197.79.25
+ DEBUG [24c4fede] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm 2.4.0p0 do ruby --version )
+ DEBUG [24c4fede] 	Ruby ruby-2.4.0p0 is not installed.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:20:54 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2f2b93a5] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [2f2b93a5] Command: [ -d ~/.rvm ]
+ DEBUG [2f2b93a5] Finished in 0.239 seconds with exit status 1 (failed).
+ DEBUG [f5689a63] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [f5689a63] Command: [ -d /usr/local/rvm ]
+ DEBUG [f5689a63] Finished in 0.219 seconds with exit status 0 (successful).
+ DEBUG [b8d767c8] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [b8d767c8] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [b8d767c8] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [b8d767c8] Finished in 0.460 seconds with exit status 0 (successful).
+ DEBUG [f8fe2a8d] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [f8fe2a8d] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [f8fe2a8d] 	ruby-2.4.0
+ DEBUG [f8fe2a8d] Finished in 0.425 seconds with exit status 0 (successful).
+ DEBUG [611078d3] Running /usr/local/rvm/bin/rvm 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16] do ruby --version as root@138.197.79.25
+ DEBUG [611078d3] Command: ( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16] do ruby --version )
+ DEBUG [611078d3] 	bash: -c: line 0: syntax error near unexpected token `('
+ DEBUG [611078d3] 	bash: -c: line 0: `( export RVM_BIN_PATH="~/.rvm/bin" ; /usr/local/rvm/bin/rvm 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16] do ruby --version )'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:22:48 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3d97bfa4] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [3d97bfa4] Command: [ -d ~/.rvm ]
+ DEBUG [3d97bfa4] Finished in 0.218 seconds with exit status 1 (failed).
+ DEBUG [eaf6a4bb] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [eaf6a4bb] Command: [ -d /usr/local/rvm ]
+ DEBUG [eaf6a4bb] Finished in 0.232 seconds with exit status 0 (successful).
+ DEBUG [bb4a0115] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [bb4a0115] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [bb4a0115] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [bb4a0115] Finished in 0.440 seconds with exit status 0 (successful).
+ DEBUG [7367c658] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [7367c658] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [7367c658] 	ruby-2.4.0
+ DEBUG [7367c658] Finished in 0.402 seconds with exit status 0 (successful).
+ DEBUG [cf47584b] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [cf47584b] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [cf47584b] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [cf47584b] Finished in 0.365 seconds with exit status 0 (successful).
+  INFO [c63cde04] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [c63cde04] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c63cde04] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [5999cd77] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [5999cd77] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [5999cd77] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [effdc8e7] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [effdc8e7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [effdc8e7] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [effdc8e7] Finished in 0.301 seconds with exit status 0 (successful).
+  INFO [6fc23cf5] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [6fc23cf5] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [6fc23cf5] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [d0e5fc6f] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [d0e5fc6f] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [d0e5fc6f] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [fcbdfb0e] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [fcbdfb0e] Command: [ -f /var/current/REVISION ]
+ DEBUG [fcbdfb0e] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [c7f8ce1a] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [c7f8ce1a] Command: [ -f /var/repo/HEAD ]
+ DEBUG [c7f8ce1a] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [193306b2] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [193306b2] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [193306b2] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [c34bb765] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [c34bb765] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [c34bb765] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [e428c81f] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [e428c81f] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e428c81f] 	Fetching origin
+  INFO [e428c81f] Finished in 0.291 seconds with exit status 0 (successful).
+ DEBUG [267f5403] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [267f5403] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [267f5403] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [2276a614] Running /usr/bin/env mkdir -p /var/releases/20170307192250 as root@138.197.79.25
+ DEBUG [2276a614] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307192250 )
+  INFO [2276a614] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [4d8eed9c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307192250 as root@138.197.79.25
+ DEBUG [4d8eed9c] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307192250 )
+  INFO [4d8eed9c] Finished in 1.407 seconds with exit status 0 (successful).
+ DEBUG [6f3b01c2] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [6f3b01c2] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [6f3b01c2] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [747109b8] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [747109b8] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [747109b8] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [747109b8] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [431cad3f] Running if test ! -d /var/releases/20170307192250; then echo "Directory does not exist '/var/releases/20170307192250'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [431cad3f] Command: if test ! -d /var/releases/20170307192250; then echo "Directory does not exist '/var/releases/20170307192250'" 1>&2; false; fi
+ DEBUG [431cad3f] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [01b3f5c8] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [01b3f5c8] Command: cd /var/releases/20170307192250 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [01b3f5c8] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [222b4d4d] Running /usr/bin/env mkdir -p /var/releases/20170307192250/public as root@138.197.79.25
+ DEBUG [222b4d4d] Command: /usr/bin/env mkdir -p /var/releases/20170307192250/public
+  INFO [222b4d4d] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [a946a6a6] Running [ -L /var/releases/20170307192250/public/assets ] as root@138.197.79.25
+ DEBUG [a946a6a6] Command: [ -L /var/releases/20170307192250/public/assets ]
+ DEBUG [a946a6a6] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [9fa4cbe3] Running [ -d /var/releases/20170307192250/public/assets ] as root@138.197.79.25
+ DEBUG [9fa4cbe3] Command: [ -d /var/releases/20170307192250/public/assets ]
+ DEBUG [9fa4cbe3] Finished in 0.010 seconds with exit status 1 (failed).
+  INFO [68fad39a] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307192250/public/assets as root@138.197.79.25
+ DEBUG [68fad39a] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307192250/public/assets
+  INFO [68fad39a] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [5a8fc16d] Running if test ! -d /var/releases/20170307192250; then echo "Directory does not exist '/var/releases/20170307192250'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [5a8fc16d] Command: if test ! -d /var/releases/20170307192250; then echo "Directory does not exist '/var/releases/20170307192250'" 1>&2; false; fi
+ DEBUG [5a8fc16d] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [eaaa85e4] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [eaaa85e4] Command: cd /var/releases/20170307192250 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [eaaa85e4] 	Could not locate Gemfile
+ DEBUG [eaaa85e4] Finished in 0.714 seconds with exit status 10 (failed).
+  INFO [79e5b81e] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [79e5b81e] Command: cd /var/releases/20170307192250 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [79e5b81e] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 14:28:04 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [61b1c8aa] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [61b1c8aa] Command: [ -d ~/.rvm ]
+ DEBUG [61b1c8aa] Finished in 0.229 seconds with exit status 1 (failed).
+ DEBUG [9f884ab3] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [9f884ab3] Command: [ -d /usr/local/rvm ]
+ DEBUG [9f884ab3] Finished in 0.220 seconds with exit status 0 (successful).
+ DEBUG [a8548416] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [a8548416] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [a8548416] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [a8548416] Finished in 0.395 seconds with exit status 0 (successful).
+ DEBUG [a8ad84b3] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [a8ad84b3] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [a8ad84b3] 	ruby-2.4.0
+ DEBUG [a8ad84b3] Finished in 0.417 seconds with exit status 0 (successful).
+ DEBUG [248a9947] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [248a9947] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [248a9947] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [248a9947] Finished in 0.329 seconds with exit status 0 (successful).
+  INFO [5d1be3ce] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [5d1be3ce] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5d1be3ce] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [6f8c4f71] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [6f8c4f71] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [6f8c4f71] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [904c1f64] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [904c1f64] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [904c1f64] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [904c1f64] Finished in 0.273 seconds with exit status 0 (successful).
+  INFO [e2bef4e2] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [e2bef4e2] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [e2bef4e2] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [62114a55] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [62114a55] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [62114a55] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [5f840cfc] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [5f840cfc] Command: [ -f /var/current/REVISION ]
+ DEBUG [5f840cfc] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [bdd572a8] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [bdd572a8] Command: [ -f /var/repo/HEAD ]
+ DEBUG [bdd572a8] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [3c81de3c] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [3c81de3c] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [3c81de3c] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [03c8d7fc] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [03c8d7fc] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [03c8d7fc] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [f5d2cc27] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [f5d2cc27] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f5d2cc27] 	Fetching origin
+  INFO [f5d2cc27] Finished in 0.291 seconds with exit status 0 (successful).
+ DEBUG [c1aa700f] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [c1aa700f] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [c1aa700f] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [bd5d3899] Running /usr/bin/env mkdir -p /var/releases/20170307192806 as root@138.197.79.25
+ DEBUG [bd5d3899] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307192806 )
+  INFO [bd5d3899] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [a39b0442] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307192806 as root@138.197.79.25
+ DEBUG [a39b0442] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307192806 )
+  INFO [a39b0442] Finished in 1.354 seconds with exit status 0 (successful).
+ DEBUG [d0c3b555] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [d0c3b555] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [d0c3b555] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [d430acf2] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [d430acf2] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d430acf2] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [d430acf2] Finished in 0.014 seconds with exit status 0 (successful).
+ DEBUG [2faa55fb] Running if test ! -d /var/releases/20170307192806; then echo "Directory does not exist '/var/releases/20170307192806'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [2faa55fb] Command: if test ! -d /var/releases/20170307192806; then echo "Directory does not exist '/var/releases/20170307192806'" 1>&2; false; fi
+ DEBUG [2faa55fb] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [dc50fe8f] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [dc50fe8f] Command: cd /var/releases/20170307192806 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [dc50fe8f] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [1e00a663] Running /usr/bin/env mkdir -p /var/releases/20170307192806/public as root@138.197.79.25
+ DEBUG [1e00a663] Command: /usr/bin/env mkdir -p /var/releases/20170307192806/public
+  INFO [1e00a663] Finished in 0.040 seconds with exit status 0 (successful).
+ DEBUG [b09e8033] Running [ -L /var/releases/20170307192806/public/assets ] as root@138.197.79.25
+ DEBUG [b09e8033] Command: [ -L /var/releases/20170307192806/public/assets ]
+ DEBUG [b09e8033] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [f19f8a6a] Running [ -d /var/releases/20170307192806/public/assets ] as root@138.197.79.25
+ DEBUG [f19f8a6a] Command: [ -d /var/releases/20170307192806/public/assets ]
+ DEBUG [f19f8a6a] Finished in 0.010 seconds with exit status 1 (failed).
+  INFO [0d56b9c4] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307192806/public/assets as root@138.197.79.25
+ DEBUG [0d56b9c4] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307192806/public/assets
+  INFO [0d56b9c4] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [1bbbb35a] Running if test ! -d /var/releases/20170307192806; then echo "Directory does not exist '/var/releases/20170307192806'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [1bbbb35a] Command: if test ! -d /var/releases/20170307192806; then echo "Directory does not exist '/var/releases/20170307192806'" 1>&2; false; fi
+ DEBUG [1bbbb35a] Finished in 0.010 seconds with exit status 0 (successful).
+ DEBUG [3e318fd3] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [3e318fd3] Command: cd /var/releases/20170307192806 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [3e318fd3] 	Could not locate Gemfile
+ DEBUG [3e318fd3] Finished in 0.765 seconds with exit status 10 (failed).
+  INFO [9a009ce2] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [9a009ce2] Command: cd /var/releases/20170307192806 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [9a009ce2] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 15:09:06 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3a579a1c] Running [ -d ~/.rvm ] as cap-user@138.197.79.25
+ DEBUG [3a579a1c] Command: [ -d ~/.rvm ]
+ DEBUG [3a579a1c] Finished in 0.322 seconds with exit status 1 (failed).
+ DEBUG [e3b4de6a] Running [ -d /usr/local/rvm ] as cap-user@138.197.79.25
+ DEBUG [e3b4de6a] Command: [ -d /usr/local/rvm ]
+ DEBUG [e3b4de6a] Finished in 0.220 seconds with exit status 0 (successful).
+ DEBUG [4d7c3fd0] Running /usr/local/rvm/bin/rvm version as cap-user@138.197.79.25
+ DEBUG [4d7c3fd0] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [4d7c3fd0] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [4d7c3fd0] Finished in 0.424 seconds with exit status 0 (successful).
+ DEBUG [51cc9e72] Running /usr/local/rvm/bin/rvm current as cap-user@138.197.79.25
+ DEBUG [51cc9e72] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [51cc9e72] 	ruby-2.4.0
+ DEBUG [51cc9e72] Finished in 0.406 seconds with exit status 0 (successful).
+ DEBUG [e23a9a60] Running /usr/local/rvm/bin/rvm default do ruby --version as cap-user@138.197.79.25
+ DEBUG [e23a9a60] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [e23a9a60] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [e23a9a60] Finished in 0.392 seconds with exit status 0 (successful).
+  INFO [82988644] Running /usr/bin/env mkdir -p /tmp as cap-user@138.197.79.25
+ DEBUG [82988644] Command: /usr/bin/env mkdir -p /tmp
+  INFO [82988644] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 15:09:40 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [99984191] Running [ -d ~/.rvm ] as cap-user@138.197.79.25
+ DEBUG [99984191] Command: [ -d ~/.rvm ]
+ DEBUG [99984191] Finished in 0.256 seconds with exit status 1 (failed).
+ DEBUG [c58e2c0e] Running [ -d /usr/local/rvm ] as cap-user@138.197.79.25
+ DEBUG [c58e2c0e] Command: [ -d /usr/local/rvm ]
+ DEBUG [c58e2c0e] Finished in 0.228 seconds with exit status 0 (successful).
+ DEBUG [1daeb633] Running /usr/local/rvm/bin/rvm version as cap-user@138.197.79.25
+ DEBUG [1daeb633] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [1daeb633] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [1daeb633] Finished in 0.500 seconds with exit status 0 (successful).
+ DEBUG [f6f9b35e] Running /usr/local/rvm/bin/rvm current as cap-user@138.197.79.25
+ DEBUG [f6f9b35e] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [f6f9b35e] 	ruby-2.4.0
+ DEBUG [f6f9b35e] Finished in 0.442 seconds with exit status 0 (successful).
+ DEBUG [b42002e8] Running /usr/local/rvm/bin/rvm default do ruby --version as cap-user@138.197.79.25
+ DEBUG [b42002e8] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [b42002e8] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [b42002e8] Finished in 0.451 seconds with exit status 0 (successful).
+  INFO [a819afc5] Running /usr/bin/env mkdir -p /tmp as cap-user@138.197.79.25
+ DEBUG [a819afc5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a819afc5] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 15:11:05 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [45baf252] Running [ -d ~/.rvm ] as cap-user@138.197.79.25
+ DEBUG [45baf252] Command: [ -d ~/.rvm ]
+ DEBUG [45baf252] Finished in 0.249 seconds with exit status 1 (failed).
+ DEBUG [6aea4d83] Running [ -d /usr/local/rvm ] as cap-user@138.197.79.25
+ DEBUG [6aea4d83] Command: [ -d /usr/local/rvm ]
+ DEBUG [6aea4d83] Finished in 0.215 seconds with exit status 0 (successful).
+ DEBUG [1b9e5b45] Running /usr/local/rvm/bin/rvm version as cap-user@138.197.79.25
+ DEBUG [1b9e5b45] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [1b9e5b45] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [1b9e5b45] Finished in 0.416 seconds with exit status 0 (successful).
+ DEBUG [cfc82b74] Running /usr/local/rvm/bin/rvm current as cap-user@138.197.79.25
+ DEBUG [cfc82b74] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [cfc82b74] 	ruby-2.4.0
+ DEBUG [cfc82b74] Finished in 0.421 seconds with exit status 0 (successful).
+ DEBUG [6d210999] Running /usr/local/rvm/bin/rvm default do ruby --version as cap-user@138.197.79.25
+ DEBUG [6d210999] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [6d210999] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [6d210999] Finished in 0.457 seconds with exit status 0 (successful).
+  INFO [4f9226b7] Running /usr/bin/env mkdir -p /tmp as cap-user@138.197.79.25
+ DEBUG [4f9226b7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4f9226b7] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-07 15:12:36 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7c67ec39] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [7c67ec39] Command: [ -d ~/.rvm ]
+ DEBUG [7c67ec39] Finished in 0.266 seconds with exit status 1 (failed).
+ DEBUG [79122878] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [79122878] Command: [ -d /usr/local/rvm ]
+ DEBUG [79122878] Finished in 0.212 seconds with exit status 0 (successful).
+ DEBUG [a16a15b0] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [a16a15b0] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [a16a15b0] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [a16a15b0] Finished in 0.405 seconds with exit status 0 (successful).
+ DEBUG [872407ce] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [872407ce] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [872407ce] 	ruby-2.4.0
+ DEBUG [872407ce] Finished in 0.640 seconds with exit status 0 (successful).
+ DEBUG [1d2ca47d] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [1d2ca47d] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [1d2ca47d] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [1d2ca47d] Finished in 0.417 seconds with exit status 0 (successful).
+  INFO [5bb8cf38] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [5bb8cf38] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5bb8cf38] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [f607218a] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [f607218a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [f607218a] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [042a3dd1] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [042a3dd1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [042a3dd1] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [042a3dd1] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [dc732243] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [dc732243] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [dc732243] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [85f732a5] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [85f732a5] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [85f732a5] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [e71858a7] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [e71858a7] Command: [ -f /var/current/REVISION ]
+ DEBUG [e71858a7] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [b3e9a9eb] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [b3e9a9eb] Command: [ -f /var/repo/HEAD ]
+ DEBUG [b3e9a9eb] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [3c912f3f] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [3c912f3f] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [3c912f3f] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [cdb91918] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [cdb91918] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [cdb91918] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [a08d7d5e] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [a08d7d5e] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a08d7d5e] 	Fetching origin
+  INFO [a08d7d5e] Finished in 0.280 seconds with exit status 0 (successful).
+ DEBUG [b8e26594] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [b8e26594] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [b8e26594] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [a287b885] Running /usr/bin/env mkdir -p /var/releases/20170307201239 as root@138.197.79.25
+ DEBUG [a287b885] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170307201239 )
+  INFO [a287b885] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [d4eb1785] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307201239 as root@138.197.79.25
+ DEBUG [d4eb1785] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170307201239 )
+  INFO [d4eb1785] Finished in 1.845 seconds with exit status 0 (successful).
+ DEBUG [cccf5041] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [cccf5041] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [cccf5041] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [53478b4e] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [53478b4e] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [53478b4e] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [53478b4e] Finished in 0.016 seconds with exit status 0 (successful).
+ DEBUG [cac813f9] Running if test ! -d /var/releases/20170307201239; then echo "Directory does not exist '/var/releases/20170307201239'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [cac813f9] Command: if test ! -d /var/releases/20170307201239; then echo "Directory does not exist '/var/releases/20170307201239'" 1>&2; false; fi
+ DEBUG [cac813f9] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [ccbb946e] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [ccbb946e] Command: cd /var/releases/20170307201239 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [ccbb946e] Finished in 0.010 seconds with exit status 0 (successful).
+  INFO [14fc0190] Running /usr/bin/env mkdir -p /var/releases/20170307201239/public as root@138.197.79.25
+ DEBUG [14fc0190] Command: /usr/bin/env mkdir -p /var/releases/20170307201239/public
+  INFO [14fc0190] Finished in 0.010 seconds with exit status 0 (successful).
+ DEBUG [e82fc7e5] Running [ -L /var/releases/20170307201239/public/assets ] as root@138.197.79.25
+ DEBUG [e82fc7e5] Command: [ -L /var/releases/20170307201239/public/assets ]
+ DEBUG [e82fc7e5] Finished in 0.010 seconds with exit status 1 (failed).
+ DEBUG [efaeae14] Running [ -d /var/releases/20170307201239/public/assets ] as root@138.197.79.25
+ DEBUG [efaeae14] Command: [ -d /var/releases/20170307201239/public/assets ]
+ DEBUG [efaeae14] Finished in 0.041 seconds with exit status 1 (failed).
+  INFO [d5f2d3d0] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307201239/public/assets as root@138.197.79.25
+ DEBUG [d5f2d3d0] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170307201239/public/assets
+  INFO [d5f2d3d0] Finished in 0.018 seconds with exit status 0 (successful).
+ DEBUG [df6b6ae8] Running if test ! -d /var/releases/20170307201239; then echo "Directory does not exist '/var/releases/20170307201239'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [df6b6ae8] Command: if test ! -d /var/releases/20170307201239; then echo "Directory does not exist '/var/releases/20170307201239'" 1>&2; false; fi
+ DEBUG [df6b6ae8] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG [e2db2fc1] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [e2db2fc1] Command: cd /var/releases/20170307201239 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [e2db2fc1] 	Could not locate Gemfile
+ DEBUG [e2db2fc1] Finished in 0.638 seconds with exit status 10 (failed).
+  INFO [8be113c4] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [8be113c4] Command: cd /var/releases/20170307201239 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [8be113c4] 	Could not locate Gemfile
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 10:10:19 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7685fbab] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [7685fbab] Command: [ -d ~/.rvm ]
+ DEBUG [7685fbab] Finished in 0.251 seconds with exit status 1 (failed).
+ DEBUG [1f7fd8cb] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [1f7fd8cb] Command: [ -d /usr/local/rvm ]
+ DEBUG [1f7fd8cb] Finished in 0.227 seconds with exit status 0 (successful).
+ DEBUG [98cbb059] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [98cbb059] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [98cbb059] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [98cbb059] Finished in 0.564 seconds with exit status 0 (successful).
+ DEBUG [b8eb293c] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [b8eb293c] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [b8eb293c] 	ruby-2.4.0
+ DEBUG [b8eb293c] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [88dd2cb5] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [88dd2cb5] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [88dd2cb5] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [88dd2cb5] Finished in 0.360 seconds with exit status 0 (successful).
+  INFO [8f87772f] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [8f87772f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8f87772f] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [0de1aa6e] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [0de1aa6e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [0de1aa6e] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [432fcf87] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [432fcf87] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [432fcf87] 	Permission denied (publickey).
+ DEBUG [432fcf87] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 10:12:26 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [01383617] Running [ -d ~/.rvm ] as root@138.197.79.25
+ DEBUG [01383617] Command: [ -d ~/.rvm ]
+ DEBUG [01383617] Finished in 0.255 seconds with exit status 1 (failed).
+ DEBUG [f37219e6] Running [ -d /usr/local/rvm ] as root@138.197.79.25
+ DEBUG [f37219e6] Command: [ -d /usr/local/rvm ]
+ DEBUG [f37219e6] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG [1b8e9b33] Running /usr/local/rvm/bin/rvm version as root@138.197.79.25
+ DEBUG [1b8e9b33] Command: /usr/local/rvm/bin/rvm version
+ DEBUG [1b8e9b33] 	rvm 1.29.1 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io/]
+ DEBUG [1b8e9b33] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [7458fea1] Running /usr/local/rvm/bin/rvm current as root@138.197.79.25
+ DEBUG [7458fea1] Command: /usr/local/rvm/bin/rvm current
+ DEBUG [7458fea1] 	ruby-2.4.0
+ DEBUG [7458fea1] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [b9a39873] Running /usr/local/rvm/bin/rvm default do ruby --version as root@138.197.79.25
+ DEBUG [b9a39873] Command: /usr/local/rvm/bin/rvm default do ruby --version
+ DEBUG [b9a39873] 	ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+ DEBUG [b9a39873] Finished in 0.344 seconds with exit status 0 (successful).
+  INFO [c93a5e78] Running /usr/bin/env mkdir -p /tmp as root@138.197.79.25
+ DEBUG [c93a5e78] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c93a5e78] Finished in 0.011 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 0.0%
+  INFO Uploading /tmp/git-ssh-grauDeNom-production-raw.sh 100.0%
+  INFO [20e34a4b] Running /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh as root@138.197.79.25
+ DEBUG [20e34a4b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-grauDeNom-production-raw.sh
+  INFO [20e34a4b] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [575237de] Running /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD as root@138.197.79.25
+ DEBUG [575237de] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git ls-remote git@github.com:grauPuche/_grauDeNom.git HEAD )
+ DEBUG [575237de] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3	HEAD
+  INFO [575237de] Finished in 0.263 seconds with exit status 0 (successful).
+  INFO [e05f20a5] Running /usr/bin/env mkdir -p /var/shared /var/releases as root@138.197.79.25
+ DEBUG [e05f20a5] Command: /usr/bin/env mkdir -p /var/shared /var/releases
+  INFO [e05f20a5] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [cd383e39] Running /usr/bin/env mkdir -p /var/shared/public/assets as root@138.197.79.25
+ DEBUG [cd383e39] Command: /usr/bin/env mkdir -p /var/shared/public/assets
+  INFO [cd383e39] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [f53f51e4] Running [ -f /var/current/REVISION ] as root@138.197.79.25
+ DEBUG [f53f51e4] Command: [ -f /var/current/REVISION ]
+ DEBUG [f53f51e4] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [5e9b1bc2] Running [ -f /var/repo/HEAD ] as root@138.197.79.25
+ DEBUG [5e9b1bc2] Command: [ -f /var/repo/HEAD ]
+ DEBUG [5e9b1bc2] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/repo
+ DEBUG [21dac227] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [21dac227] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [21dac227] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [14fd61a0] Running /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git as root@138.197.79.25
+ DEBUG [14fd61a0] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote set-url origin git@github.com:grauPuche/_grauDeNom.git )
+  INFO [14fd61a0] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [3f68f743] Running /usr/bin/env git remote update --prune as root@138.197.79.25
+ DEBUG [3f68f743] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [3f68f743] 	Fetching origin
+  INFO [3f68f743] Finished in 0.340 seconds with exit status 0 (successful).
+ DEBUG [2c4aa277] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [2c4aa277] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [2c4aa277] Finished in 0.011 seconds with exit status 0 (successful).
+  INFO [eeb3d8a5] Running /usr/bin/env mkdir -p /var/releases/20170308151229 as root@138.197.79.25
+ DEBUG [eeb3d8a5] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env mkdir -p /var/releases/20170308151229 )
+  INFO [eeb3d8a5] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [1b343a59] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170308151229 as root@138.197.79.25
+ DEBUG [1b343a59] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/releases/20170308151229 )
+  INFO [1b343a59] Finished in 1.451 seconds with exit status 0 (successful).
+ DEBUG [d3963cd4] Running if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [d3963cd4] Command: if test ! -d /var/repo; then echo "Directory does not exist '/var/repo'" 1>&2; false; fi
+ DEBUG [d3963cd4] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [5994b109] Running /usr/bin/env git rev-list --max-count=1 master as root@138.197.79.25
+ DEBUG [5994b109] Command: cd /var/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-grauDeNom-production-raw.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [5994b109] 	bd6ae8ddac7b5994667b8465a644ff4b42b035b3
+ DEBUG [5994b109] Finished in 0.015 seconds with exit status 0 (successful).
+ DEBUG [7039e564] Running if test ! -d /var/releases/20170308151229; then echo "Directory does not exist '/var/releases/20170308151229'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [7039e564] Command: if test ! -d /var/releases/20170308151229; then echo "Directory does not exist '/var/releases/20170308151229'" 1>&2; false; fi
+ DEBUG [7039e564] Finished in 0.012 seconds with exit status 0 (successful).
+  INFO [f58110be] Running /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION as root@138.197.79.25
+ DEBUG [f58110be] Command: cd /var/releases/20170308151229 && /usr/bin/env echo "bd6ae8ddac7b5994667b8465a644ff4b42b035b3" >> REVISION
+  INFO [f58110be] Finished in 0.014 seconds with exit status 0 (successful).
+  INFO [3a7f2995] Running /usr/bin/env mkdir -p /var/releases/20170308151229/public as root@138.197.79.25
+ DEBUG [3a7f2995] Command: /usr/bin/env mkdir -p /var/releases/20170308151229/public
+  INFO [3a7f2995] Finished in 0.012 seconds with exit status 0 (successful).
+ DEBUG [e5dbe2fb] Running [ -L /var/releases/20170308151229/public/assets ] as root@138.197.79.25
+ DEBUG [e5dbe2fb] Command: [ -L /var/releases/20170308151229/public/assets ]
+ DEBUG [e5dbe2fb] Finished in 0.011 seconds with exit status 1 (failed).
+ DEBUG [f36a28d8] Running [ -d /var/releases/20170308151229/public/assets ] as root@138.197.79.25
+ DEBUG [f36a28d8] Command: [ -d /var/releases/20170308151229/public/assets ]
+ DEBUG [f36a28d8] Finished in 0.015 seconds with exit status 1 (failed).
+  INFO [9d48110e] Running /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170308151229/public/assets as root@138.197.79.25
+ DEBUG [9d48110e] Command: /usr/bin/env ln -s /var/shared/public/assets /var/releases/20170308151229/public/assets
+  INFO [9d48110e] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [e18c9db6] Running if test ! -d /var/releases/20170308151229; then echo "Directory does not exist '/var/releases/20170308151229'" 1>&2; false; fi as root@138.197.79.25
+ DEBUG [e18c9db6] Command: if test ! -d /var/releases/20170308151229; then echo "Directory does not exist '/var/releases/20170308151229'" 1>&2; false; fi
+ DEBUG [e18c9db6] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [6d7f2429] Running /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle as root@138.197.79.25
+ DEBUG [6d7f2429] Command: cd /var/releases/20170308151229 && /usr/local/rvm/bin/rvm default do bundle check --path /var/shared/bundle
+ DEBUG [6d7f2429] 	Could not locate Gemfile
+ DEBUG [6d7f2429] Finished in 1.013 seconds with exit status 10 (failed).
+  INFO [644c5c28] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet as root@138.197.79.25
+ DEBUG [644c5c28] Command: cd /var/releases/20170308151229 && /usr/local/rvm/bin/rvm default do bundle install --path /var/shared/bundle --without development test --deployment --quiet
+ DEBUG [644c5c28] 	Could not locate Gemfile

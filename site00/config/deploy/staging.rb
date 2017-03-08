@@ -76,10 +76,4 @@
 #  user: 'root',
 #  port: 2222
 
-set :ssh_options, { 
-  forward_agent: true, 
-  paranoid: true, 
-  keys: "/Users/g_/.ssh/id_rsa" 
-}
 
-}

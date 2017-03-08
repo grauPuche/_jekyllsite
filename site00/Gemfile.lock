@@ -72,7 +72,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano (~> 3.6)
-  capistrano-bundler (~> 1.2)
+  capistrano-bundler
   capistrano-rails (~> 1.2)
   capistrano-rvm
   jekyll (= 3.4.1)

@@ -55,3 +55,10 @@
      user: "root", # overrides user setting above
       password: "934127607"
    }
+
+   set :ssh_options, { 
+  forward_agent: true, 
+  paranoid: true, 
+  keys: "/Users/g_/.ssh/id_rsa",
+  auth_methods: %w(password) 
+}
